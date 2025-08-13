@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SettingsView: View {
     @ObservedObject var sparkleUpdater: SparkleUpdater
-    private let width: CGFloat = 540
+    private let width: CGFloat = 600
 
     var body: some View {
         TabView {

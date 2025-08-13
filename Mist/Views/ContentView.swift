@@ -73,7 +73,7 @@ struct ContentView: View {
         return filteredInstallers
     }
 
-    private let width: CGFloat = 480
+    private let width: CGFloat = 512
     private let height: CGFloat = 720
 
     var body: some View {
