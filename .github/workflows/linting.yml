@@ -10,7 +10,7 @@ on:
 jobs:
   linting:
     name: Linting
-    runs-on: macos-14
+    runs-on: x86_tahoe
     steps:
       - uses: actions/checkout@v4
       - uses: swift-actions/setup-swift@v2
