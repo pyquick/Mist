@@ -40,7 +40,7 @@ struct SettingsAboutView: View {
             }
             PaddedDivider()
             HStack {
-                Text("Made with 🩸,💧, and whole lot of 😭 by [Ninxsoft](https://github.com/ninxsoft)")
+                Text("Made with 🩸,💧, and whole lot of 😭 by [Ninxsoft](https://github.com/pyquick)")
                 Spacer()
                 Button("Visit Homepage") {
                     visitHomepage()

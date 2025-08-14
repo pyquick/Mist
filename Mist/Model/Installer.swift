@@ -654,8 +654,9 @@ struct Installer: Decodable, Hashable, Identifiable {
     let unsupportedModelIdentifiers: [String]
     var name: String {
         var name: String = ""
-
-        if version.range(of: "^15", options: .regularExpression) != nil {
+        if version.range(of: "^26", options: .regularExpression) != nil {
+            name = "macOS Tahoe"
+        }else if version.range(of: "^15", options: .regularExpression) != nil {
             name = "macOS Sequoia"
         } else if version.range(of: "^14", options: .regularExpression) != nil {
             name = "macOS Sonoma"
@@ -687,6 +688,7 @@ struct Installer: Decodable, Hashable, Identifiable {
             name = "macOS \(version)"
         }
 
+            
         name = beta ? "\(name) beta" : name
         return name
     }

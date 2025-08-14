@@ -19,7 +19,7 @@ extension String {
     /// Helper URL
     static let helperURL: String = "/Library/PrivilegedHelperTools/\(helperIdentifier)"
     /// Repository URL
-    static let repositoryURL: String = "https://github.com/ninxsoft/Mist"
+    static let repositoryURL: String = "https://github.com/pyquick/Mist"
     /// Filename template
     static let filenameTemplate: String = "Install %NAME% %VERSION%_%BUILD%"
     /// Firmware filename template

@@ -12,6 +12,7 @@ enum AppIcon: String, CaseIterable, Identifiable {
     case ventura = "Ventura"
     case sonoma = "Sonoma"
     case sequoia = "Sequoia"
+    case tahoe = "Tahoe"
 
     static let `default`: AppIcon = .sequoia
 
